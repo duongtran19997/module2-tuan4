@@ -10,6 +10,6 @@ let Philippines3 =  new Country('Philippines3',21,30,37)
 
 let MedalTable =  new SeaGamesMedalTable()
 MedalTable.insertCountry(Thailand,Philippines,Indonesia,Vietnam,Philippines2,Philippines3)
-MedalTable.bubbleSort()
+MedalTable.listSort()
 console.log(MedalTable);
 

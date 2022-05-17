@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.Country = void 0;
 var Country = /** @class */ (function () {
     function Country(name, gold, silver, bronze) {

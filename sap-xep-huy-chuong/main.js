@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var country_1 = require("./country");
 var Seagames_medal_table_1 = require("./Seagames medal table");
 var Vietnam = new country_1.Country('Việt Nam', 70, 46, 44);
@@ -10,5 +10,5 @@ var Philippines2 = new country_1.Country('Philippines2', 21, 27, 3);
 var Philippines3 = new country_1.Country('Philippines3', 21, 30, 37);
 var MedalTable = new Seagames_medal_table_1.SeaGamesMedalTable();
 MedalTable.insertCountry(Thailand, Philippines, Indonesia, Vietnam, Philippines2, Philippines3);
-MedalTable.bubbleSort();
+MedalTable.listSort();
 console.log(MedalTable);
