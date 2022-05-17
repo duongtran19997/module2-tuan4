@@ -15,3 +15,8 @@ p {
 #element1 {
     color: blue;
 }
+a:link{
+
+    text-decoration: none;
+    color:black;
+}
