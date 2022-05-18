@@ -1,0 +1,12 @@
+div{
+    border-style: solid;
+    border-color: rebeccapurple red darkgreen aqua;
+    border-width: 5px;
+}
+p{
+    border-style: dotted;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: red;
+    text-align: center;
+}

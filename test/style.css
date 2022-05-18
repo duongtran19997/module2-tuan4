@@ -1,0 +1,12 @@
+.father{
+    background-color: hotpink;
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.child{
+    background-color: purple;
+    width: 200px;
+    height: 100px;
+}
