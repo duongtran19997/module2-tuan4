@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar {
+    position: fixed;
+    background-color: #222222;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 52px;
+    border: solid 1px #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin: auto 0;*/
+}
+i{
+    color: grey;
+}
+i:hover{
+    color: blue;
+    border: solid 1px blue;
+    padding: 13px;
+}
+.nav-bar ul li {
+    padding: 0 20px;
+    margin-left: 10px;
+}
+
+#menu li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    left: 0;
+    margin: auto 0;
+
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#fbIcon{
+    width:37px;
+    height:37px;
+    padding-top:5px ;
+    padding-left: 5px;
+    /*position: absolute;*/
+}
+/*#fbIconFrame {*/
+/*    position: relative;*/
+/*    margin-left: 13px;*/
+/*    margin-top: 0;*/
+/*}*/
+#search {
+    /*position: absolute;*/
+    background-color: #333333;
+    width: 200px;
+    height: 30px;
+    /*margin: 0 auto;*/
+    border:solid 1px #333333;
+    border-radius: 40px;
+    text-align: center;
+}
+.nav-bar ul li {
+    display: inline-block;
+
+}
+
+.nav-bar ul li#space1 {
+    flex: 2;
+}
+.nav-bar ul li #space2 {
+    flex: 1;
+}
+#div-home{
+    /*position: absolute;*/
+    top: 0px;
+    display: inline;
+    left: 450px;
+    border-style: solid;
+    width: 49px;
+    height: 49px;
+}
+#home{
+    color:red;
+    width: 40px;
+    height: 40px;
+}
+#profile{
+    width: 80px;
+    height: 40px;
+    padding: 3px 0 0 0;
+}
+.main-left{
+    background-color: #222222;
+    width: 33%;
+    height: 500px;
+    float: left;
+    margin-top: 52px;
+}
+#left{
+
+}
+.main-mid{
+    background-color: aqua;
+    width: 33%;
+    height: 500px;
+    float: left;
+    margin-top: 52px;
+}
+.main-right{
+    background-color: pink;
+    width: 33%;
+    height: 500px;
+    float: left;
+    margin-top: 52px;
+}
